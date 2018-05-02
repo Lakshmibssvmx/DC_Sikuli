@@ -1,0 +1,8 @@
+org\ge\dclibrary\BaseLib.class
+org\ge\dctests\DC_PRTTest.class
+org\ge\dclibrary\AppServices.class
+org\ge\pageobjects\DC_SalesforcePage.class
+org\ge\pageobjects\DC_DispatchConsolePage.class
+org\ge\dclibrary\GenericLib.class
+org\ge\dctests\Sample.class
+org\ge\pageobjects\DC_ServiceMaxSetupPage.class

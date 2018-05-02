@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 202.218 sec <<< FAILURE! - in TestSuite
+dcImmediateDispatchProcess(org.ge.dctests.DC_PRTTest)  Time elapsed: 102.38 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //tr[@class='dataRow even first']/td[3]/select
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'GCTHW5H2E', ip: '192.168.1.130', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 17364, moz:profile: C:\Users\212672444\AppData\..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ca787586-d734-4902-b1f6-801e7b9874cc
+*** Element info: {Using=xpath, value=//tr[@class='dataRow even first']/td[3]/select}
+	at org.ge.dctests.DC_PRTTest.dcImmediateDispatchProcess(DC_PRTTest.java:602)
+
